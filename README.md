@@ -19,5 +19,5 @@ Clonar el respositorio de GITHUB:
 
 ## LICENSE
 
-[GENERAL GNU GPL LICENSE](https://opensource.org/licenses/gpl-license)
+[GNU General Public License v3.0](https://opensource.org/licenses/gpl-license)
 
