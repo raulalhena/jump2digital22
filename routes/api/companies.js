@@ -2,14 +2,13 @@ import Router from "express";
 import { Companies, sequelize, dotenv } from "../../config/maria.js";
 import { Sequelize } from "sequelize"; 
 import fs from "fs";
-import path from "path";
+import * as path from "path";
 import { fileURLToPath } from "url";
-import { dirname } from "path";
 
 dotenv.config();
 
 const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
+const __dirname = path.dirname(__filename);
 const fp = path.join(__dirname, process.env.DB_FILE);
 const router = Router();
 
@@ -63,7 +62,7 @@ router.get("/amount", async (req, res) => {
 });
 
 // Load all the companies to DB
-router.get("/loadall", (req, res) => {
+router.post("/loadall", (req, res) => {
     let companyRes;
     const companies = Object.entries(JSON.parse(fs.readFileSync(fp, "utf-8")));
     companies.forEach(async (company) => {
