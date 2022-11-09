@@ -5,9 +5,16 @@ export default (sequelize, type) => {
             primaryKey: true,
             autoIncrement: true
         },
-        id: type.STRING,
+        id: {
+            type: type.STRING,
+            allowNull: false,
+            unique: true
+        },
         website: type.STRING,
-        name: type.STRING,
+        name: {
+            type: type.STRING,
+            unique: true
+        },
         founded: type.INTEGER,
         size: type.STRING,
         locality: type.STRING,
