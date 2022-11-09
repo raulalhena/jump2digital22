@@ -11,6 +11,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const fp = path.join(__dirname, process.env.DB_FILE);
 const router = Router();
+router.disable("x-powered-by");
 
 // Show all the companies on the DB
 router.get("/", async (req, res) => {
