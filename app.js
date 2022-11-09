@@ -4,16 +4,16 @@ import bodyParser from "body-parser";
 import api from "./routes/api.js";
 
 dotenv.config();
-const app = express();
+const appexp = express();
 
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use('/api', api);
+appexp.use(bodyParser.json());
+appexp.use(bodyParser.urlencoded({ extended: false }));
+appexp.use('/api', api);
 
-app.get('/', (req, res) => {
+appexp.get('/', (req, res) => {
     res.send("Server Running");
 });
 
-app.listen(process.env.SRV_PORT, () => {
+appexp.listen(process.env.SRV_PORT, () => {
     console.log(`Listening on port ${process.env.SRV_PORT}`);
 });
