@@ -240,7 +240,7 @@ DB_PASSW=[Password de acceso del usuario de la BBDD]
 DB_NAME=[Nombre de la BBDD]
 DB_DIALECT=[Identificador de Sequelize para el gestor de BBDD que se use. Ejemplo: ["mariadb"]]
 DB_FILE=[Archivo con los datos de las compañías ["/data/companies.json"]]
-API_VERSION="v1.0"
+API_VERSION=[Versión de la API ["v1.0"]]
 ```
 
 ### \# Importación esquema una vez creada la BBDD en MariaDB
