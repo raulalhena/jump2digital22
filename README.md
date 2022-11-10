@@ -233,13 +233,13 @@ touch .env
 ### \# El archivo .env tendrá las siguientes variables:
 
 ```shell
-HOST="localhost"
-SRV_PORT="3000"
-DB_USER=[DATABASE USER]
-DB_PASSW=[DATABASE USER PASSWORD]
-DB_NAME=[DATABASE NAME]
-DB_DIALECT=[SEQUELIZE IDENTIFICATOR FOR YOUR DB MANAGER. EXEMPLE: ["mariadb"]]
-DB_FILE=[FILE WITH COMPANIES DATA. URI: ["/data/companies.json"]]
+HOST=[Nombre o dirección IP del Servidor tanto Web como de BD ["localhost"]]
+SRV_PORT=[Puerto de escucha del servidor Web: Express ["3000"]]
+DB_USER=[Usuario de la BBDD]
+DB_PASSW=[Password de acceso del usuario de la BBDD]
+DB_NAME=[Nombre de la BBDD]
+DB_DIALECT=[Identificador de Sequelize para el gestor de BBDD que se use. Ejemplo: ["mariadb"]]
+DB_FILE=[Archivo con los datos de las compañías ["/data/companies.json"]]
 API_VERSION="v1.0"
 ```
 
