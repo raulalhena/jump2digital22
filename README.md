@@ -1,4 +1,4 @@
-# Jump2Digital Hackathon Backend
+# Jump2Digital22 Hackathon Backend
 
 API de control de compañías. Se gestionan compañías a través de diferentes endpoints que facilitan la información contenida en la **BBDD**, tienendo un endpoint para cargar la información de las compañías en la tabla correspondiente.
 
