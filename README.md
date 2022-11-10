@@ -34,5 +34,5 @@ Creación de archivo _.env_ que debe contener las siguientes variables:
 
 ## LICENSE
 
-[GENERAL GNU GPL LICENSE](https://opensource.org/licenses/gpl-license)
+[GNU General Public License v3.0](https://opensource.org/licenses/gpl-license)
 
