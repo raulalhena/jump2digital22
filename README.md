@@ -48,6 +48,9 @@ Descripción del modelo **_Companies_** con sus correspondientes endpoints.
     - message = String \- Mensaje de éxito **_"success"_** o fallo **_"fail"_**.
 
       - counter
+      - id
+      - website
+      - name
       - founded
       - size
       - locality
@@ -55,6 +58,8 @@ Descripción del modelo **_Companies_** con sus correspondientes endpoints.
       - country
       - industry
       - linkedin_url
+      - createdAt
+      - updatedAt
 
     **Ejemplo: /bysize**
 
@@ -267,6 +272,8 @@ La tabla se crea al ejecutarse la app automaticamente, si no existe previamente 
         industry: type.STRING,
         linkedin_url: type.STRING
 ```
+
+El modelo **Companies** no contiene los campos **_createdAt_** y **_updatedAt_**, estos los crea Sequelize por defecto si no se le indica lo contrario.
 
 ### \# Ejecución del servidor
 
