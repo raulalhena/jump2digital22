@@ -205,12 +205,12 @@ Para el correcto funcionamiento se requiere de los siguientes tecnologías:
 
 Para agilizar el desarrollo se ha utilizado el paquete _nodemon_ que se encuentra en las dependencias de desarrollo del paquete _package.json_.
 
-Para poder instalar todo lo necesario a excepción del servidor MySQL hay que seguir los siguientes pasos:
+Para poder instalar todo lo necesario a excepción del servidor MariaDB hay que seguir los siguientes pasos:
 
 ### \# Clonar repositorio
 
 ```shell
-git clone https://github.com/raulalhena/jump2.git
+git clone https://github.com/raulalhena/jump2digital22.git
 ```
 
 ### \# Instalación
@@ -238,7 +238,7 @@ DB_FILE=[FILE WITH COMPANIES DATA. URI: ["/data/companies.json"]]
 API_VERSION="v1.0"
 ```
 
-### \# Importación esquema una vez creada la BBDD en MySQL
+### \# Importación esquema una vez creada la BBDD en MariaDB
 
 La tabla se crea al ejecutarse la app automaticamente, si no existe previamente a partir del modelo **Companies** de Sequelize (**_/models/companies.js_**):
 
