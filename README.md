@@ -8,15 +8,17 @@ El proyecto ha sido creado para la participación en el Hackathon de **_Jump2Dig
 
 ## Usage
 
-Para usarlo, es necesario realizar consultas a los endpoints descritos en la sección API para realizar la acción deseada a través del verbo HTML: GET.
+Para usarlo, es necesario realizar consultas a los endpoints descritos en la sección API para realizar la acción deseada a través del verbo HTTP: GET.
 
-Se levanta el servidor Express, por defecto en el puerto 3000, para la exposición de la API, usando el **ORM Sequelize** junto a **MariaDB** para la persistencia de datos.
+Se pone a la escucha el servidor Express, por defecto en el puerto 3000, para la exposición de la API, usando el **ORM Sequelize** junto a **MariaDB** para la persistencia de datos.
 
 Encontrarás el uso de **_importación de módulos de ES6_**, configurado en el package.json. Se ha realizado con JS funcional. El trabajo asíncrono se ha implementado con el uso de **_async/await_** para simplificar y conseguir una mayor legibilidad del código.
 
 ## API/Component
 
-Descripción del modelo **_Companies_** con sus correspondientes endpoints.
+Descripción de la API **_Companies_** con sus correspondientes endpoints.
+
+### Endpoint: '/' y '/api' => Uso para comprobaciones de funcionamiento.
 
 ### Endpoint: /companies
 
