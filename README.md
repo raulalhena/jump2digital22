@@ -22,7 +22,7 @@ Descripción de la API **_Companies_** con sus correspondientes endpoints.
 
 ### Endpoint: /companies
 
-- **GET** - Consulta de todas las compañías existentes:
+- **GET** - Consulta de todas las compañías existentes, ordenadas por el campo **_counter_** (clave primaria y auto incremental):
 
   - Recibe: 
     - Parametros:
@@ -48,6 +48,8 @@ Descripción de la API **_Companies_** con sus correspondientes endpoints.
 
     - code = Number (Código de estado HTML: **_200 OK, 400 SOLICITUD INCORRECTA, 500 ERROR SERVIDOR_**).
     - message = String \- Mensaje de éxito **_"success"_** o fallo **_"fail"_**.
+    - data = Object \- Objeto con las compañías ordenadas como corresponde a cada endpoint.
+
 
       - counter
       - id
