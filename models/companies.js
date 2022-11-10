@@ -1,3 +1,7 @@
+/**
+ *  Stating Sequelize Companies model
+ */
+
 export default (sequelize, type) => {
     return sequelize.define('companies', {
         counter: {
