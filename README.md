@@ -245,7 +245,7 @@ API_VERSION="v1.0"
 
 ### \# Importación esquema una vez creada la BBDD en MariaDB
 
-La tabla se crea al ejecutarse la app automaticamente, si no existe previamente a partir del modelo **Companies** de Sequelize (**_/models/companies.js_**):
+La tabla se crea al ejecutarse la app, si no existe previamente, de forma automatica, a partir del modelo **Companies** de Sequelize (**_/models/companies.js_**) estos son los campos de la tabla **_companies_**:
 
 ```JS
 
