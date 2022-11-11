@@ -212,6 +212,8 @@ Para el correcto funcionamiento se requiere de los siguientes tecnologías:
 4. MariaDB [DOCS](https://mariadb.org/documentation/)
 5. Git [DOCS](https://git-scm.com/doc)
 
+- Los enlaces a la documentación puede estar desfasada, revisar ultima versión o versión instalada.
+
 Para agilizar el desarrollo se ha utilizado el paquete _nodemon_ que se encuentra en las dependencias de desarrollo del paquete _package.json_.
 
 Para poder instalar todo lo necesario a excepción del servidor MariaDB hay que seguir los siguientes pasos:
