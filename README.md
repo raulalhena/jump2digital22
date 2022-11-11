@@ -286,6 +286,13 @@ Modo Desarrollo (con nodemon): npm run dev
 Modo Producción: npm run start
 ```
 
+### \# Carga de los datos en la tabla 'companies'. Endpoint con los datos por defecto:
+
+```HTTP
+http://localhost:3000/api/companies/loadall
+```
+Una vez seguidos estos pasos ya se puede hacer uso de toda la API.
+
 ## Stack
 
 1. NodeJS
