@@ -20,7 +20,7 @@ Descripción de la API **_Companies_** con sus correspondientes endpoints.
 
 ### Endpoint: '/' y '/api' => Uso para comprobaciones de funcionamiento.
 
-### Endpoint: /companies
+### Endpoint: /api/companies
 
 - **GET** - Consulta de todas las compañías existentes, ordenadas por el campo **_counter_** (clave primaria y auto incremental):
 
@@ -28,7 +28,7 @@ Descripción de la API **_Companies_** con sus correspondientes endpoints.
     - Parametros:
   - Devuelve: JSON
 
-### Endpoint: /companies/bysize
+### Endpoint: /api/companies/bysize
 
 - **GET** - Consulta las compañías ordenadas por tamaño:
 
@@ -36,7 +36,7 @@ Descripción de la API **_Companies_** con sus correspondientes endpoints.
     - Parametros:
   - Devuelve: JSON
 
-### Endpoint: /companies/byfoundedyear
+### Endpoint: /api/companies/byfoundedyear
 
 - **GET** - Consulta las compañías ordenadas por año de fundación, de la más actual a la más antigua:
 
@@ -65,7 +65,7 @@ Descripción de la API **_Companies_** con sus correspondientes endpoints.
       - createdAt
       - updatedAt
 
-    **Ejemplo: /bysize**
+    **Ejemplo: /api/companies/bysize**
 
     ```JSON
     JSON:
@@ -99,7 +99,7 @@ Descripción de la API **_Companies_** con sus correspondientes endpoints.
     }
     ```
 
-### Endpoint: /companies/amount
+### Endpoint: /api/companies/amount
 
 - **GET** - Consulta el número de compañías en tres consultas diferentes, agrupadas por los campos **_industry_**, **_size_** y **_founded_** :
 
@@ -150,7 +150,7 @@ Descripción de la API **_Companies_** con sus correspondientes endpoints.
     }
     ```
 
-### Endpoint: /companies/loadall
+### Endpoint: /api/companies/loadall
 
 - **GET** - Inserta todas las compañías del archivo **_/data/companies.json_** dentro de la tabla **_companies_**:
 
@@ -249,7 +249,7 @@ API_VERSION=[Versión de la API ["v1.0"]]
 
 ### \# Importación esquema una vez creada la BBDD en MariaDB
 
-La tabla se crea al ejecutarse la app, si no existe previamente, de forma automatica, a partir del modelo **Companies** de Sequelize (**_/models/companies.js_**) estos son los campos de la tabla **_companies_**:
+La tabla se crea al ejecutarse la app si no existe previamente de forma automatica, el esquema se configura a partir del modelo **Companies** de Sequelize (**_/models/companies.js_**) estos son los campos de la tabla **_companies_**:
 
 ```JS
 
