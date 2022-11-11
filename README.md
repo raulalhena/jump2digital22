@@ -194,7 +194,7 @@ Descripción de la API **_Companies_** con sus correspondientes endpoints.
             ...
         ]
     }
-    ERROR:
+    ERROR (Al ejecutarlo una vez ya cargada la tabla con la información):
     {
         "code": 400,
         "message": "fail",
@@ -206,11 +206,11 @@ Descripción de la API **_Companies_** con sus correspondientes endpoints.
 
 Para el correcto funcionamiento se requiere de los siguientes tecnologías:
 
-1. NodeJS
-2. Express
-3. Sequelize
-4. MariaDB
-5. Git
+1. NodeJS [DOCS](https://nodejs.org/es/docs/)
+2. Express [DOCS](http://expressjs.com/en/4x/api.html)
+3. Sequelize [DOCS](https://sequelize.org/api/v6/)
+4. MariaDB [DOCS](https://mariadb.org/documentation/)
+5. Git [DOCS](https://git-scm.com/doc)
 
 Para agilizar el desarrollo se ha utilizado el paquete _nodemon_ que se encuentra en las dependencias de desarrollo del paquete _package.json_.
 
@@ -292,14 +292,15 @@ Modo Producción: npm run start
 [http://localhost:3000/api/companies/loadall](http://localhost:3000/api/companies/loadall)
 
 
-Una vez seguidos estos pasos ya se puede hacer uso de toda la API.
+Una vez seguidos estos pasos ya se puede hacer uso de toda la API!!
+
 
 ## Stack
 
-1. NodeJS
-2. Express
-3. Sequelize
-4. MariaDB
+1. NodeJS [DOCS](https://nodejs.org/es/docs/)
+2. Express [DOCS](http://expressjs.com/en/4x/api.html)
+3. Sequelize [DOCS](https://sequelize.org/api/v6/)
+4. MariaDB [DOCS](https://mariadb.org/documentation/)
 
 ## Contact info
 
