@@ -107,7 +107,7 @@ Descripción de la API **_Companies_** con sus correspondientes endpoints.
     - Parametros:
   - Devuelve: JSON
 
-    - code = Number (Código de estado HTTP: **_200 OK, 400 SOLICITUD INCORRECTA, 500 ERROR SERVIDOR_**).
+    - code = Number (Código de estado HTTP: **_200 OK, 400 SOLICITUD INCORRECTA_**).
     - message = String \- Mensaje de éxito **_"success"_** o fallo **_"fail"_**.
     - data = Object \- Objeto con los números de compañías por cada uno de los grupos existentes.
 
@@ -159,7 +159,7 @@ Descripción de la API **_Companies_** con sus correspondientes endpoints.
     - Se obtiene de archivo local **_/data/companies.json_** o **_DB_FILE_**
   - Devuelve: JSON
 
-    - code = Number (Código de estado HTTP: **_200 OK, 400 SOLICITUD INCORRECTA, 500 ERROR SERVIDOR_**).
+    - code = Number (Código de estado HTTP: **_200 OK, 400 SOLICITUD INCORRECTA_**).
     - message = String \- Mensaje de producto creado o de error.
     - data = Objeto con todas las compañías cargadas en la **_BBDD_** **_DB_NAME_**
 
