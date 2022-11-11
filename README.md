@@ -297,6 +297,8 @@ Una vez seguidos estos pasos ya se puede hacer uso de toda la API!!
 
 ## Stack
 
+Los enlaces a la documentación puede estar desfasada, revisar ultima versión o versión instalada.
+
 1. NodeJS [DOCS](https://nodejs.org/es/docs/)
 2. Express [DOCS](http://expressjs.com/en/4x/api.html)
 3. Sequelize [DOCS](https://sequelize.org/api/v6/)
