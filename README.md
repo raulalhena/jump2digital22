@@ -46,7 +46,7 @@ Descripción de la API **_Companies_** con sus correspondientes endpoints.
 
 - Estos tres endpoints devuelven el mismo tipo de información:
 
-    - code = Number (Código de estado HTTP: **_200 OK, 400 SOLICITUD INCORRECTA, 500 ERROR SERVIDOR_**).
+    - code = Number (Código de estado HTTP: **_200 OK, 400 SOLICITUD INCORRECTA_**).
     - message = String \- Mensaje de éxito **_"success"_** o fallo **_"fail"_**.
     - data = Object \- Objeto con las compañías ordenadas como corresponde a cada endpoint.
 
