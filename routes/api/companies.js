@@ -164,8 +164,7 @@ function manageResult(res, code, message, data) {
         message,
         data
     });
-
-    return;
+    
 }
 
 export default router;
