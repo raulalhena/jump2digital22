@@ -308,7 +308,7 @@ Los enlaces a la documentación puede estar desfasada, revisar ultima versión o
 
 ## Badges
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=[raulalhena_nuwe_LoginRegisterlocaloauth](https://sonarcloud.io/project/overview?id=raulalhena_jump2digital22)&metric=alert_status)](https://sonarcloud.io/project/overview?id=raulalhena_jump2digital22)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=raulalhena_jump2digital22&metric=alert_status)](https://sonarcloud.io/project/overview?id=raulalhena_jump2digital22)
 
 ## Contact info
 
